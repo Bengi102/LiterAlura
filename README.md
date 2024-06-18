@@ -23,17 +23,6 @@
  CSS
 
 
-<<<<<<< HEAD
-## Ejemplos de Uso
-
-## Instalación
-
-1. Clona este repositorio.
-2. Abre el proyecto en tu IDE preferido.
-3. Configura las credenciales de la API de Gutendex en el archivo de propiedades (`application.properties` o `application.yml`).
-4. Ejecuta la aplicación.
 
 
 
-=======
->>>>>>> 2bda28171ae91101e5ee7c7610b824b615a95bb9
