@@ -57,6 +57,5 @@ Las entidades `Libro` y `Autor` tienen una relación de muchos a muchos. Esto si
 3. Configura las credenciales de la API de Gutendex en el archivo de propiedades (`application.properties` o `application.yml`).
 4. Ejecuta la aplicación.
 
-## Créditos
 
-Este proyecto fue creado por Julia Daniela Rodriguez.
+
