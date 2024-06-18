@@ -1,8 +1,5 @@
 # Literalura
 
-Descripción breve de tu proyecto y su objetivo.
-Este proyecto fue realizado para cumplir con el Challenge de Spring del programa de Alura con Oracle
-
 ## Características
 
 - Busca libros en la API de Gutendex.
@@ -15,39 +12,18 @@ Este proyecto fue realizado para cumplir con el Challenge de Spring del programa
 - Puedes guardar tus favoritos
 ## Entidades y sus Vinculaciones
 
-### Libro
-
-- **id**: Identificador único del libro.
-- **titulo**: Título del libro.
-- **cantidadDescargas**: Número de descargas del libro.
-- **tipoDeMedio**: Tipo de medio del libro (por ejemplo, texto, audio).
-- **autores**: Lista de autores del libro (relación muchos a muchos con la entidad `Autor`).
-- **lenguaje**: Lenguaje en el que está escrito el libro.
-- **categoria**: Categoría del libro.
-- **formatos**: Lista de formatos disponibles para el libro (por ejemplo,Ver en linea, Descargar PDF, ePub , audiolibro).
-- **imagen**: URL de la imagen de la portada del libro.
-- **estado**: Permite dar de baja para poder ocultar los libros que no desea ver.
-
-### Autor
-
-- **id**: Identificador único del autor.
-- **nombre**: Nombre del autor.
-- **anioNac**: Año de nacimiento del autor.
-- **anioMuerte**: Año de muerte del autor (si aplica).
-- **Acceso a Biografia**: Los autores tienen un enlace a su biografia en wikipedia.
-
-Las entidades `Libro` y `Autor` tienen una relación de muchos a muchos. Esto significa que un libro puede tener múltiples autores y un autor puede haber escrito múltiples libros. La relación se maneja mediante una tabla intermedia `autor_libro`.
 
 ## Tecnologías Utilizadas
 
- ![Postgres](https://img.shields.io/badge/Postgres-316192?style=flat&logo=postgresql&logoColor=white)
- ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
- ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
- ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat&logo=thymeleaf&logoColor=white)
- ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
- ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+ Postgres
+ Java
+ Spring Boot
+ Thymeleaf
+ HTML
+ CSS
 
 
+<<<<<<< HEAD
 ## Ejemplos de Uso
 
 ## Instalación
@@ -59,3 +35,5 @@ Las entidades `Libro` y `Autor` tienen una relación de muchos a muchos. Esto si
 
 
 
+=======
+>>>>>>> 2bda28171ae91101e5ee7c7610b824b615a95bb9
